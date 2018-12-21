@@ -1,3 +1,6 @@
 # Symboler
 
-Her blir det lagt inn symboler som er i bruk i VG1 Automasjonsteknologi og Elenergi.
+Her ligger det symboler for VG1 Automasjonsteknologi og Elenergi for bruk i KiCAD.
+
+Last ned KiCAD:
+http://kicad-pcb.org/
