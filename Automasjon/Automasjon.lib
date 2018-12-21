@@ -1,6 +1,44 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Hjelpekontaktsett_Motorvern_NC
+#
+DEF ~Hjelpekontaktsett_Motorvern_NC S 0 40 Y Y 1 F N
+F0 "S" -200 -50 50 H V C CNN
+F1 "Hjelpekontaktsett_Motorvern_NC" -800 350 50 H I C CNN
+F2 "" 0 300 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+DRAW
+P 2 0 0 0 100 50 0 50 N
+P 5 0 1 0 -25 -50 -25 0 -75 0 -75 -50 -125 -50 N
+P 2 1 1 0 0 -200 0 -150 N
+P 2 1 1 0 0 -150 100 50 N
+P 2 1 1 0 0 100 0 50 N
+P 2 1 1 0 50 -50 -25 -50 N
+X ~ 1 0 200 100 D 50 50 1 1 I
+X ~ 2 0 -300 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Hjelpekontaktsett_Motorvern_NO
+#
+DEF ~Hjelpekontaktsett_Motorvern_NO S 0 40 Y Y 1 F N
+F0 "S" -300 0 50 H V C CNN
+F1 "Hjelpekontaktsett_Motorvern_NO" -900 400 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 0 -86 0 N
+P 2 0 1 0 0 -150 0 -100 N
+P 2 0 1 0 0 -100 -100 100 N
+P 2 0 1 0 0 150 0 100 N
+P 2 1 1 0 -50 0 -125 0 N
+P 5 1 1 0 -125 0 -125 50 -175 50 -175 0 -225 0 N
+X ~ 3 0 250 100 D 50 50 1 1 I
+X ~ 4 0 -250 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Impulsbryter_NC
 #
 DEF ~Impulsbryter_NC S 0 40 Y Y 1 F N
@@ -17,8 +55,8 @@ P 2 1 1 0 0 -200 0 -150 N
 P 2 1 1 0 0 -150 100 50 N
 P 2 1 1 0 0 100 0 50 N
 P 2 1 1 0 50 -50 14 -50 N
-X ~ 3 0 200 100 D 50 50 1 1 I
-X ~ 4 0 -300 100 U 50 50 1 1 I
+X ~ 1 0 200 100 D 50 50 1 1 I
+X ~ 2 0 -300 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -56,6 +94,39 @@ X ~ A2 0 -250 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Kontaktsett_NC
+#
+DEF ~Kontaktsett_NC S 0 40 Y Y 1 F N
+F0 "S" -200 -50 50 H V C CNN
+F1 "Kontaktsett_NC" -500 200 50 H I C CNN
+F2 "" 0 300 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+DRAW
+P 2 0 0 0 100 50 0 50 N
+P 2 1 1 0 0 -200 0 -150 N
+P 2 1 1 0 0 -150 100 50 N
+P 2 1 1 0 0 100 0 50 N
+X ~ 1 0 200 100 D 50 50 1 1 I
+X ~ 2 0 -300 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Kontaktsett_NO
+#
+DEF ~Kontaktsett_NO S 0 40 Y Y 1 F N
+F0 "S" -200 50 50 H V C CNN
+F1 "Kontaktsett_NO" -550 300 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -150 0 -100 N
+P 2 0 1 0 0 -100 -100 100 N
+P 2 0 1 0 0 150 0 100 N
+X ~ 3 0 250 100 D 50 50 1 1 I
+X ~ 4 0 -250 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Motor
 #
 DEF ~Motor M 0 40 Y Y 1 F N
@@ -77,6 +148,27 @@ P 2 0 0 0 400 650 400 500 N
 X ~ U -400 700 100 D 50 50 1 1 I
 X ~ V 0 700 100 D 50 50 1 1 I
 X ~ W 400 700 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Nødstoppbryter
+#
+DEF ~Nødstoppbryter S 0 40 Y Y 1 F N
+F0 "S" -200 150 50 H V C CNN
+F1 "Nødstoppbryter" -425 325 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -125 0 50 901 -901 0 1 0 N -125 50 -125 -50
+P 2 1 0 0 100 100 0 100 N
+P 2 0 1 0 -125 50 -125 -50 N
+P 4 0 1 0 -25 0 -50 -50 -75 0 -125 0 N
+P 2 1 1 0 0 -150 0 -100 N
+P 2 1 1 0 0 -100 100 100 N
+P 2 1 1 0 0 150 0 100 N
+P 2 1 1 0 50 0 -25 0 N
+X ~ 1 0 250 100 D 50 50 1 1 I
+X ~ 2 0 -250 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
