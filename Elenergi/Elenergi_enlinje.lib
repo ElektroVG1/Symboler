@@ -19,6 +19,25 @@ X ~ ~ 150 0 50 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Bryter_serievender
+#
+DEF ~Bryter_serievender U 0 40 Y Y 1 F N
+F0 "U" 400 -200 50 H I C CNN
+F1 "Bryter_serievender" -600 300 50 H I C CNN
+F2 "" 4250 1250 50 H I C CNN
+F3 "" 4250 1250 50 H I C CNN
+DRAW
+C 0 0 71 0 0 0 N
+P 2 0 0 0 -100 0 -75 0 N
+P 2 0 0 0 46 54 111 132 N
+P 2 0 0 0 100 0 75 0 N
+P 2 1 0 0 140 110 112 132 N
+P 3 0 1 0 -50 50 -125 125 -150 100 N
+X ~ ~ -150 0 50 R 50 50 1 1 I
+X ~ ~ 150 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Bryter_topolt
 #
 DEF ~Bryter_topolt U 0 40 Y Y 1 F N
@@ -35,6 +54,22 @@ P 2 0 0 0 118 82 90 104 N
 P 2 1 0 0 140 110 112 132 N
 X ~ ~ -150 0 50 R 50 50 1 1 I
 X ~ ~ 150 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Koblingspunkt
+#
+DEF ~Koblingspunkt U 0 40 Y Y 1 F N
+F0 "U" 400 -200 50 H I C CNN
+F1 "Koblingspunkt" -450 200 50 H I C CNN
+F2 "" 4250 1250 50 H I C CNN
+F3 "" 4250 1250 50 H I C CNN
+DRAW
+C 0 0 71 0 0 0 N
+X ~ ~ -100 0 0 R 50 50 1 1 I
+X ~ ~ 0 -100 0 R 50 50 1 1 I
+X ~ ~ 0 100 0 R 50 50 1 1 I
+X ~ ~ 100 0 0 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

@@ -21,9 +21,11 @@ http://kicad-pcb.org/
 - Vern, termisk og elektromagnetisk
 
 ## Elenergi:
+- Koblingspunkt (enlinje, flerlinje)
 - Lysarmatur (enlinje, flerlinje)
 - Stikk, dobbel (enlinje, flerlinje)
 - Stikk, enkel (enlinje)
 - Bryter, enpolt (enlinje, flerlinje)
 - Bryter, topolt (enlinje, flerlinje)
+- Serievender (enlinje, flerlinje)
 
