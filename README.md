@@ -4,6 +4,9 @@ Her ligger det symboler for VG1 Automasjonsteknologi og Elenergi for bruk i KiCA
 Last ned KiCAD:
 http://kicad-pcb.org/
 
+Er det noe du lurer på, eller sitter fast med, sjekk wikien:
+https://github.com/ElektroVG1/Symboler/wiki
+
 # Fullstendig Symbolliste:
 
 ## Automasjon:
