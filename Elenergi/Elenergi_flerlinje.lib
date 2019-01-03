@@ -1,6 +1,27 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Bryter_endevender
+#
+DEF ~Bryter_endevender U 0 40 Y Y 1 F N
+F0 "U" 450 -150 50 H I C CNN
+F1 "Bryter_endevender" -400 250 50 H I C CNN
+F2 "" 60 -50 50 H I C CNN
+F3 "" 60 -50 50 H I C CNN
+DRAW
+P 2 1 0 0 160 0 140 0 N
+P 2 1 0 0 200 150 200 50 N
+P 3 1 0 0 200 -150 200 -50 150 50 N
+P 7 1 0 0 130 0 120 0 100 -30 80 0 60 0 60 30 60 -30 N
+P 3 0 1 0 0 100 0 50 150 50 N
+P 4 0 1 0 230 100 250 140 270 100 230 100 N
+P 4 1 1 0 30 100 50 140 70 100 30 100 N
+X ~ ~ 0 150 50 D 50 50 1 1 I
+X ~ ~ 200 -150 50 U 50 50 1 1 I
+X ~ ~ 200 150 50 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Bryter_enpolt
 #
 DEF ~Bryter_enpolt U 0 40 Y Y 1 F N
