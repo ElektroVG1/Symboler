@@ -1,3 +1,5 @@
+# Info
+
 Symbolene er for bruk i KiCAD.
 
 Last ned KiCAD:
