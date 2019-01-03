@@ -5,7 +5,7 @@ Symbolene er for bruk i KiCAD.
 Last ned KiCAD:
 http://kicad-pcb.org/
 
-Er det noe du lurer på, eller sitter fast med, sjekk wikien:
+Er det noe du lurer på, sitter fast med eller er ny til KiCAD, sjekk wikien først da:
 https://github.com/ElektroVG1/Symboler/wiki
 
 # Fullstendig Symbolliste:
