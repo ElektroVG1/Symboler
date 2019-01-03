@@ -14,6 +14,7 @@ https://github.com/ElektroVG1/Symboler/wiki
 - Hjelpekontaktsett til Motorvern NC
 - Hjelpekontaktsett til Motorvern NO
 - Hovedkontaktsett kontaktor
+- idec MICRO SMART (PLS)
 - Impulsbryter NC
 - Impulsbryter NO
 - Kontaktor
@@ -22,7 +23,11 @@ https://github.com/ElektroVG1/Symboler/wiki
 - Motor
 - Nødstoppbryter
 - Signallampe
+- Switch, forsinket slutning NC
+- Switch, forsinket slutning NO
+- Vern, bimetallrele trefaset
 - Vern, termisk og elektromagnetisk
+- Vern, generelt symbol (svart felt indikerer spenningsførende etter at sikring har gått)
 
 ## Elenergi:
 - Koblingspunkt (enlinje, flerlinje)
@@ -32,4 +37,5 @@ https://github.com/ElektroVG1/Symboler/wiki
 - Bryter, enpolt (enlinje, flerlinje)
 - Bryter, topolt (enlinje, flerlinje)
 - Serievender (enlinje, flerlinje)
+- Endevender (enlinje, flerlinje)
 
