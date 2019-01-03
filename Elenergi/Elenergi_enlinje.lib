@@ -1,0 +1,85 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Bryter_enpolt
+#
+DEF ~Bryter_enpolt U 0 40 Y Y 1 F N
+F0 "U" 400 -200 50 H I C CNN
+F1 "Bryter_enpolt" -350 150 50 H I C CNN
+F2 "" 4250 1250 50 H I C CNN
+F3 "" 4250 1250 50 H I C CNN
+DRAW
+C 0 0 71 0 0 0 N
+P 2 0 0 0 -100 0 -75 0 N
+P 2 0 0 0 46 54 111 132 N
+P 2 0 0 0 100 0 75 0 N
+P 2 1 0 0 140 110 112 132 N
+X ~ ~ -150 0 50 R 50 50 1 1 I
+X ~ ~ 150 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Bryter_topolt
+#
+DEF ~Bryter_topolt U 0 40 Y Y 1 F N
+F0 "U" 400 -200 50 H I C CNN
+F1 "Bryter_topolt" -350 150 50 H I C CNN
+F2 "" 4250 1250 50 H I C CNN
+F3 "" 4250 1250 50 H I C CNN
+DRAW
+C 0 0 71 0 0 0 N
+P 2 0 0 0 -100 0 -75 0 N
+P 2 0 0 0 46 54 111 132 N
+P 2 0 0 0 100 0 75 0 N
+P 2 0 0 0 118 82 90 104 N
+P 2 1 0 0 140 110 112 132 N
+X ~ ~ -150 0 50 R 50 50 1 1 I
+X ~ ~ 150 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Lysarmatur
+#
+DEF ~Lysarmatur U 0 40 Y Y 1 F N
+F0 "U" 150 -100 50 H I C CNN
+F1 "Lysarmatur" -300 150 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 0 0 -50 -50 50 50 N
+P 2 0 0 0 -50 50 50 -50 N
+X ~ ~ 0 0 0 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Stikk_dobbel
+#
+DEF ~Stikk_dobbel S 0 40 Y Y 1 F N
+F0 "S" 120 -100 50 H I C CNN
+F1 "Stikk_dobbel" -310 170 50 H I C CNN
+F2 "" 110 0 50 H I C CNN
+F3 "" 110 0 50 H I C CNN
+DRAW
+A 60 0 50 901 -901 0 1 0 N 60 50 60 -50
+T 0 10 110 50 0 0 0 2 Normal 0 C C
+P 2 0 1 0 10 50 10 -50 N
+P 2 0 1 0 60 30 30 70 N
+X ~ ~ -90 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Stikk_enkel
+#
+DEF ~Stikk_enkel S 0 40 Y Y 1 F N
+F0 "S" 120 -100 50 H I C CNN
+F1 "Stikk_enkel" -310 170 50 H I C CNN
+F2 "" 110 0 50 H I C CNN
+F3 "" 110 0 50 H I C CNN
+DRAW
+A 60 0 50 901 -901 0 1 0 N 60 50 60 -50
+P 2 0 1 0 10 50 10 -50 N
+X ~ ~ -90 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
